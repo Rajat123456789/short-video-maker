@@ -1,0 +1,35 @@
+✅ Setup & Run Guide for short-video-maker
+
+1. Clone the repository (if starting fresh):
+   git clone https://github.com/gyoridavid/short-video-maker.git
+   cd short-video-maker
+
+2. Install dependencies:
+   npm install
+
+3. Set environment variables:
+   Create a .env file in the root with:
+   PEXELS_API_KEY=your_pexels_api_key_here
+
+   Get your key from: https://www.pexels.com/api/new/
+
+4. Build the backend:
+   npm run build
+
+5. Build the frontend UI:
+   npm run ui:build
+
+6. Start the server:
+   npm start
+
+   - Backend: http://localhost:3123/api
+   - Frontend: http://localhost:3123
+
+7. Visit the app in your browser:
+   http://localhost:3123
+
+▶ To resume later:
+   cd short-video-maker
+   npm start
+
+   (If UI fails, run: npm run ui:build then npm start)
